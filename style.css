@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ .main-div {
+     width: 771px;
+     margin: auto;
+     text-align: center;
+ }
+ h3{
+    color: rgb(248, 2, 2);
+ }
+ h3 span{
+    color: #148435;
+ }
+ /* row */
+ .row {
+     width: 300px;
+     height: 300px;
+     border: 3px dotted #c4c4c4;
+     margin: 20px auto;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     padding: 10px 0;
+ }
+ .row-item {
+     background: red;
+     border: 2px solid #262323;
+ }
+ /* row 2 */
+ .row-2 {
+     width: 600px;
+     height: 200px;
+     border: 3px solid #c4c4c4;
+     margin: 20px auto;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items: flex-end;
+     justify-content: flex-end;
+     
+ }
+ .row-item-2{
+     background: red;
+     border: 2px solid #730970;
+ }
+ /* row 3 */
+ .row-3 {
+     width: 329px;
+     height: 200px;
+     border: 3px solid #c4c4c4;
+     margin: 20px auto;
+     display: flex;
+     /* flex-direction: row; */
+     flex-wrap: wrap;
+     /* align-items: flex-start; */
+     /* justify-content: flex-start; */
+     align-content: flex-start;
+ }
+ .row-item-3{
+     background: red;
+     border: 2px solid #730970;
+ }
+ /* row 4 */
+ .row-4 {
+     width: 600px;
+     height: 500px;
+     border: 3px dotted #c4c4c4;
+     margin: 20px auto;
+     display: flex;
+     align-items: flex-start;
+ }
+ .row-item-4 {
+     background: red;
+     border: 2px solid #b0802e;
+     color: #fff;
+     flex-grow: 1;
+     display: flex;
+     justify-content: flex-start;
+ }
+ .row-item-4:nth-child(3){
+     order: -1;
+ }
+ /* row 5 */
+ .row-5{
+     width: 600px;
+     height: 500px;
+     border: 3px dotted #c4c4c4;
+     margin: 20px auto;
+     display: flex;
+     align-items: flex-start;
+ }
+ .row-item-5 {
+     background: red;
+     border: 2px solid #b0802e;
+     color: #fff;
+     flex-grow: 1;
+     display: flex;
+     justify-content: flex-start;
+ }
+ .row-item-5:nth-child(3){
+     align-self: flex-end;
+ }
+ .row-item-5:nth-child(4){
+     align-self: center;
+ }
+ /* row 6 */
+ .row-6 {
+     width: 700px;
+     height: 600px;
+     border: 3px dotted #c4c4c4;
+     margin: 20px auto;
+     display: flex;
+     flex-direction: row-reverse;
+ }
+ .row-item-6{
+     background: red;
+     border: 2px solid #ddd;
+ }
